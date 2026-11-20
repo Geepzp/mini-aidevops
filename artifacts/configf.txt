@@ -1,0 +1,22 @@
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+Linux
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       540Mi       7.0Gi       4.6Mi       351Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+Linux DESKTOP-CL69FI4 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 GNU/Linux
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  6.7G  955G   1% /
+geepz
+geepz adm cdrom sudo dip plugdev users docker

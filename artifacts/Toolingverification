@@ -1,0 +1,117 @@
+================================================
+       DEVOPS ENVIRONMENT VERIFICATION
+================================================
+
+1. SYSTEM REQUIREMENTS
+------------------------------------------------
+Operating System:
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       537Mi       7.1Gi       4.6Mi       274Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+Disk Space:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  6.7G  955G   1% /
+
+Current User:
+geepz
+
+2. VERSION CONTROL AND EDITOR
+------------------------------------------------
+[PASS] Git is installed
+[PASS] Visual Studio Code CLI is installed
+git version 2.53.0
+Git user: Not configured
+Git email: Not configured
+
+3. AI DEVELOPMENT TOOLS
+------------------------------------------------
+[FAIL] GitHub CLI is NOT installed
+[FAIL] Amazon Q CLI is NOT installed
+[FAIL] Gemini CLI is NOT installed
+[FAIL] Codex CLI is NOT installed
+[FAIL] LocalStack CLI is NOT installed
+
+4. CONTAINERIZATION
+------------------------------------------------
+[PASS] Docker is installed
+[FAIL] Docker Compose standalone is NOT installed
+Docker version 29.9.3, build 5457199
+[PASS] Docker Compose plugin is working
+Docker Compose version v5.7.0
+[PASS] Docker daemon is accessible
+
+5. KUBERNETES TOOLING
+------------------------------------------------
+[PASS] Minikube is installed
+[PASS] kubectl is installed
+[PASS] Helm is installed
+minikube version: v1.39.0
+commit: 7a9f6a841470a207de8cf4bafcccee0969d8ba10
+🤷  Profile "minikube" not found. Run "minikube profile list" to view all profiles.
+👉  To start a cluster, run: "minikube start"
+Client Version: v1.37.2
+Kustomize Version: v5.8.1
+v3.22.1+gd6c1a0e
+
+6. CLOUD AND LANGUAGE RUNTIMES
+------------------------------------------------
+[PASS] AWS CLI is installed
+[PASS] Azure CLI is installed
+[PASS] Node.js is installed
+[PASS] NPM is installed
+[PASS] JQ is installed
+aws-cli/2.40.2 Python/3.14.8 Linux/6.18.58.1-microsoft-standard-WSL2 exe/x86_64.ubuntu.26
+Azure-cli    Azure-cli-core    Azure-cli-telemetry
+-----------  ----------------  ---------------------
+2.92.0       2.92.0            1.1.0
+v26.13.0
+11.20.0
+jq-1.8.1
+
+7. INFRASTRUCTURE AND CONFIGURATION
+------------------------------------------------
+[PASS] Terraform is installed
+[PASS] Ansible is installed
+Terraform v1.17.1
+on linux_amd64
+
+Your version of Terraform is out of date! The latest version
+is 1.17.2. You can update by downloading from https://developer.hashicorp.com/terraform/install
+
+ansible [core 2.21.6]
+  config file = None
+  configured module search path = ['/home/geepz/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/geepz/.local/share/pipx/venvs/ansible/lib/python3.14/site-packages/ansible
+  ansible collection location = /home/geepz/.ansible/collections:/usr/share/ansible/collections
+  executable location = /home/geepz/.local/bin/ansible
+  python version = 3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0] (/home/geepz/.local/share/pipx/venvs/ansible/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+
+8. SECURITY AND PERMISSIONS
+------------------------------------------------
+Current user and groups:
+uid=1000(geepz) gid=1000(geepz) groups=1000(geepz),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),982(docker)
+
+Sudo access:
+[PASS] Sudo access available without password
+
+Docker group membership:
+[WARN] User belongs to Docker group (root-equivalent access)
+
+SSH directory permissions:
+[INFO] SSH directory not created
+
+Kubernetes configuration permissions:
+[INFO] Kubernetes config not created
+
+Terraform configuration permissions:
+644 /home/geepz/terraform-project/terraform.tfstate
+
+================================================
+       VERIFICATION COMPLETED
+================================================
